@@ -73,7 +73,8 @@ Xcode → Products → real-iga.app 우클릭 → Show in Finder
 ### 방법 3. Homebrew로 설치
 
 ```bash
-brew install --cask ./Casks/real-iga.rb
+brew tap --custom-remote bssm-oss/real-iga https://github.com/bssm-oss/real-iga.git
+brew install --cask bssm-oss/real-iga/real-iga
 open /Applications/real-iga.app
 ```
 
