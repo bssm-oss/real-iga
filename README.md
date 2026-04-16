@@ -70,6 +70,15 @@ Xcode → Products → real-iga.app 우클릭 → Show in Finder
 
 필요하면 `Applications` 폴더로 옮긴 뒤 일반 앱처럼 실행하면 됩니다.
 
+### 방법 3. Homebrew로 설치
+
+```bash
+brew install --cask ./Casks/real-iga.rb
+open /Applications/real-iga.app
+```
+
+이 cask는 릴리스 zip을 내려받아 설치한 뒤 quarantine 속성을 제거합니다.
+
 ---
 
 ## 작동 방식
